@@ -1,0 +1,17 @@
+check list:
+->creaza baza de date            ✅
+->creaza tabele                  ✅
+->populeaza tabele               ✅
+->login                          ✅
+->pagina principala              ✅
+->logo.png                       ✅
+->operatii CRUD client           ✅✅✅
+->operatii CRUD Antrenor         ✅✅✅
+->Filtre                         ✅
+->Top 5 Clienti si Antrenori     ✅
+->Reinoire Abonament(Client)     ✅
+->Adaugare Antrenament(Client)   ✅
+->Modificare Home si Info sala   ✅✅
+->Login mai frumos               ✅
+->Stilistica                     ✅✅✅✅✅/✅✅✅✅✅
+->Documentatie                   ❌❌❌❌❌/✅✅✅✅✅

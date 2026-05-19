@@ -1,0 +1,85 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color:  rgb(238, 204, 251); 
+}
+
+.left-panel {
+    width: 195px;
+    background-color: rgb(148, 88, 251);
+    position: fixed; /* ⬅ This makes it stick while scrolling */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    color: white;
+    padding-left: 10px; /* ⬅ Moves text slightly left from edge */
+    overflow-y: auto;   /* ⬅ Scrolls if sidebar content exceeds height */
+}
+
+.top-bar {
+    height: 100px;
+    background-color: rgb(101, 4, 120);
+    margin-left: 195px;
+}
+
+.title {
+    padding: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.menu-bar {
+    background-color: rgb(101, 4, 120);
+    margin-left: 200px;
+    padding: 10px;
+}
+
+.menu-item {
+    display: inline-block;
+    background-color: #9b59b6;
+    color: white;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.main-content {
+    background-color: rgb(238, 204, 251);
+    margin-left: 210px;
+    margin-top: 10px;
+    height: calc(100vh - 150px);
+    overflow-y: auto;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+select:focus, button:focus {
+    outline: none;
+}
+/* Slightly larger input fields in the main-content area */
+.main-content input[type="text"],
+.main-content input[type="email"],
+.main-content input[type="password"],
+.main-content input[type="date"],
+.main-content input[type="number"],
+.main-content input[type="submit"],
+.main-content textarea,
+.main-content select {
+    padding: 12px;         /* Slightly more padding */
+    font-size: 16px;       /* Slightly larger text */
+    border-radius: 6px;    /* Optional: rounder corners for consistency */
+}
+

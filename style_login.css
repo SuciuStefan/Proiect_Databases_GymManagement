@@ -1,0 +1,100 @@
+/* Reset default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* General Background */
+body.login-background {
+    background-color: #6a0dad; /* Dark purple */
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Login Container */
+.login-container {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Logo */
+.login-container .logo {
+    width: 120px;
+    margin: 0 auto 15px auto;
+    display: block;
+}
+
+/* Slogan with outlined word */
+.slogan {
+    font-style: italic;
+    font-size: 18px;
+    color: #4b0082;
+    text-shadow: 1px 1px 0 #fff;
+    margin-bottom: 25px;
+}
+
+.slogan .outline {
+    color: #4b0082;
+    text-shadow: 
+        -1px -1px 0 #fff,
+         1px -1px 0 #fff,
+        -1px  1px 0 #fff,
+         1px  1px 0 #fff;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+}
+
+/* Labels */
+form label {
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Input Fields */
+form input[type="text"],
+form input[type="password"] {
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    font-size: 14px;
+    width: 100%;
+}
+
+/* Button */
+form button {
+    padding: 10px;
+    background-color: #6a0dad;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #5c0ac0;
+}
+
+/* Error Message */
+.error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
